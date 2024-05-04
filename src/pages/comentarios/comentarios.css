@@ -1,0 +1,60 @@
+  
+  #h1-comentarios {
+    color: #FFF;
+    font-size: 50px;
+    text-align: center;
+  }
+
+.card-container {
+  margin-top: 150px;
+}
+  
+  .card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card-item {
+    max-width: 30%;
+  }
+  
+  .card-comments {
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #FFFFFF;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: #ff0000;
+  }
+  
+  .card-image {
+    border-radius: 50%;
+    max-width: 160px;
+    border: solid 2px red;
+  }
+  
+  @media(max-width: 768px) {
+    .card-item {
+        flex: 0 0 calc(100% - 30px);
+        max-width: calc(100% - 30px);   
+         }
+
+    .card-comments {
+      padding-left: 30px;
+      padding-bottom: 40px;
+    }
+
+    .card-container {
+      margin-top: 60px
+    }
+
+    #footer {
+      margin-top: 0;
+    }
+  }
+

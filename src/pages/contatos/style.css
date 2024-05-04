@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@300;400;700&display=swap');
+
+#my-h1 {
+    color: white;
+}
+
+.contatos-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    background-image: url(../../assets/batman-contato.png);
+    background-size: cover;
+}
+
+input[type=text], input[type=tel], textarea {
+    background-color: black;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    display: block;
+    border: 2px solid #D21617;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+input::placeholder, textarea::placeholder {
+    color: red;
+}
+
+input[type="text"], input[type=tel], textarea:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height:200px
+}
+
+#button-contact {
+    background-color: #D21617;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    border: none;
+    width: 30%;
+}
+
+#button-contact:hover {
+    background-color: #1F2024;
+    color: white;
+}
+
+@media(max-width:768px) {
+      input[type=text], input[type=tel], textarea, #button-contact {
+        width: 100%;
+      }
+    }
+    .contatos-container {
+        background-position: 40%;
+      }
+  
