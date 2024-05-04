@@ -46,7 +46,12 @@ li:hover {
 
 @media (max-width:768px) {
   .nav-web {
-visibility: hidden;}
+display: none;
+  }
+
+  header {
+    justify-content: flex-start;
+  }
 }
 
 
